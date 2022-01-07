@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/redirect.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Smart Login System</title>
+  </head>
+  <body>
+    <main class="vh-100 d-flex justify-content-center align-items-start">
+      <div class="container text-center mt-5 p-5">
+        <h2 class="h1 text-capitalize pb-3">Smart Login System</h2>
+        <input
+          id="name"
+          class="form-control my-3 shadow-none d-none"
+          placeholder="Enter your name"
+          type="text"
+          autocomplete="off"
+        />
+        <input
+          id="email"
+          class="form-control my-3 shadow-none"
+          placeholder="Enter your email"
+          type="email"
+          autocomplete="off"
+        />
+        <input
+          id="password"
+          class="form-control my-3 shadow-none"
+          placeholder="Enter password"
+          type="password"
+          autocomplete="off"
+        />
+
+        <p id="error-msg" class="text-danger fa-bold text-capitalize"></p>
+        <button class="btn btn-outline-info w-100 my-3 text-capitalize shadow-none">Sign In</button>
+        <p class="text-white"><span>Don't have an account?</span><a class="text-white">Sign Up</a></p>
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

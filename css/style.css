@@ -1,0 +1,39 @@
+main {
+  background-color: #24353f;
+}
+
+main > div {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+main > div > h2 {
+  color: #17a2b8;
+}
+
+main > div > input,
+main > div > input::placeholder {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+main > div > button {
+  color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+
+main > div > button:hover {
+  color: #fff !important;
+  border-color: #17a2b8 !important;
+  background-color: #17a2b8 !important;
+}
+
+main > div > p {
+  user-select: none;
+}
+
+main > div > p > a {
+  margin-left: 10px;
+  user-select: none;
+  cursor: pointer;
+}
